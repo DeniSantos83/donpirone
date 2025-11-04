@@ -18,7 +18,7 @@ body{background:var(--bg); color:var(--ink);}
 }
 .login-bg{
   /* Troque a URL abaixo pela sua imagem de fundo OU aplique via inline no HTML se preferir */
-  background: url('img/bkg.jpg') center/cover no-repeat fixed;
+  background: URL('../img/bkg.jpg') center/cover no-repeat fixed;
   border-radius: 10px;
   padding: 1rem;
 }
@@ -93,4 +93,5 @@ body{background:var(--bg); color:var(--ink);}
 @media (max-width: 991.98px){
   .offcanvas{ max-width: 85%; }
 }
+
 
